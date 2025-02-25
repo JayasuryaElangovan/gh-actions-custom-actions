@@ -1,7 +1,7 @@
 name: "Get & Cache Dependencies"
 description: "Get the dependencies and cache them"
 runs:
-  using: "Composite"
+  using: "composite"
   steps: 
     - name: Cache dependencies
         id: cache
