@@ -1,12 +1,13 @@
-import MainContent from './components/MainContent';
-import logo from './assets/images/logo.png';
+import MainContent from "./components/MainContent";
+import logo from "./assets/images/logo.png";
 
 function App() {
+  const LOGO = "";
   return (
     <>
       <header>
         <div id="logo-img">
-          <img src={logo} />
+          <img src={logo} /> //TODO: Add the logo image
         </div>
         <h1>Learn & Master GitHub Actions</h1>
       </header>
